@@ -9,12 +9,15 @@ const temp = 98.9;
 // Boolean
 const hasKids = true;
 
-//Null
+// Null
 const aptNumber = null;
 
+// MDN Reference
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null
+
 // Undefined
-/* let score;
-console.log(score); */
+// let score;
+// console.log(score);
 
 const score = undefined;
 
@@ -22,9 +25,9 @@ const score = undefined;
 const id = Symbol("id");
 
 // BigInt
-const n = 31415927538713238462n;
+const n = 31415927538703238462n;
 
-// Refence Types
+// Reference Types
 
 const numbers = [1, 2, 3, 4];
 
@@ -35,6 +38,5 @@ const person = {
 function sayHello() {
   console.log("Hello");
 }
-
 const output = sayHello;
 console.log(output, typeof output);
