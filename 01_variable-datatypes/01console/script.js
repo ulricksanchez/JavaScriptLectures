@@ -24,5 +24,5 @@ console.table({ name: "Ulrick", email: "ulricksanchez@gmail.com" });
 console.group("simple");
 console.log(x);
 console.error("Alert");
-console.warm("Warning");
+console.warn("Warning");
 console.groupEnd();
