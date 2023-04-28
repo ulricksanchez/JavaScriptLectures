@@ -8,18 +8,18 @@ console.log(sumOutput);
 
 //For the DIFFERENCE
 const diff = x - y;
-const differenceOutput = `${x} - ${y} = ${diff}`;
-console.log(differenceOutput);
+const diffOutput = `${x} - ${y} = ${diff}`;
+console.log(diffOutput);
 
-//For the PRODUCRT
+//For the PRODUCT
 const prod = x * y;
-const productOutput = `${x} * ${y} = ${prod}`;
-console.log(productOutput);
+const prodOutput = `${x} * ${y} = ${prod}`;
+console.log(prodOutput);
 
-//For the QOUTIENT
-const qout = x / y;
-const qoutientOutput = `${x} / ${y} = ${qout}`;
-console.log(qoutientOutput);
+//For the QUOTIENT
+const quotient = x / y;
+const quotientOutput = `${x} / ${y} = ${quotient}`;
+console.log(quotientOutput);
 
 //For the REMAINDER
 const rm = x % y;
